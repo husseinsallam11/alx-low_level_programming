@@ -1,7 +1,6 @@
 #include<stdio.h>
-
 /**
- * main - print all aplhabet letters except q and e     
+ * main - print char
  * Return: 0
  */
 
