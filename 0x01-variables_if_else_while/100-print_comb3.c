@@ -22,7 +22,7 @@ int main(void)
 				if (num1+num2 != 17)
 				{
 					putchar(',');
-					putchat(' ');
+					putchar(' ');
 				}
 			}
 			++num2;
