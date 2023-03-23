@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 /**
  *  _isupper - checks if c is uppercase
  *  @c: input
@@ -11,5 +13,6 @@ int -isupper(int c)
 	{
 		return (1);
 	}
+	else
 	return (0);
 }
