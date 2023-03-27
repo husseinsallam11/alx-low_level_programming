@@ -12,7 +12,7 @@ int main(void)
 	int pass[100];
 	int i, sum, n;
 
-	sun = 0;
+	sum = 0;
 
 	srand(time(NULL));
 
