@@ -1,5 +1,6 @@
 /**
- * _strlen _ get length for a string
+ * _strlen - get length for a string
+ * @s: string
  * Return: lenght of string
  */
 
@@ -10,5 +11,5 @@ int _strlen(char *s)
 	for (c = 0; *s != '\0'; ++s)
 		++c;
 
-	return(c);
+	return (c);
 }

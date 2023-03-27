@@ -1,6 +1,7 @@
 /**
  * swap_int - swap value of two int
- * Return: nothing
+ * @a: pointer one
+ * @b: pointer two
  */
 
 void swap_int(int *a, int *b)
