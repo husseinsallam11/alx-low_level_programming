@@ -7,7 +7,6 @@
  *
  * Return: the int converted from the string
  */
-
 int _atoi(char *s)
 {
 	int i, d, n, len, f, digit;
@@ -56,7 +55,7 @@ int _atoi(char *s)
  */
 int main(int argc, char *argv[])
 {
-	int mul , n1 , n2;
+	int mul, n1, n2;
 
 	if (argc < 3 || argc > 3)
 	{
