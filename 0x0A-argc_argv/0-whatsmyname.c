@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include "main.h"
 
-/*
+/**
  * main - program that prints its name
  * @argc: no of arg
  * @argv: array
+ *
  * Return: 0
  */
 
