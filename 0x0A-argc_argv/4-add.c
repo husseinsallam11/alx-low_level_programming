@@ -57,7 +57,7 @@ int main(int argc, char *argv[])
 {
 	int sum, no, a, b, c;
 
-	sum = 0 ;
+	sum = 0;
 
 	for (a = 1; a < argc; a++)
 	{
