@@ -1,3 +1,4 @@
+#include <stdlib.h>
 #include "function_pointers.h"
 
 /**
@@ -6,7 +7,7 @@
  * @size: size of the array
  * @cmp: pointer
  *
- * Return: index of the 1st element 0 or 1 not found
+ * Return: index of the 1st element or -1 not found
  */
 int int_index(int *array, int size, int (*cmp)(int))
 {
@@ -21,5 +22,5 @@ int int_index(int *array, int size, int (*cmp)(int))
 		}
 	}
 
-	return (1);
+	return (-1);
 }
