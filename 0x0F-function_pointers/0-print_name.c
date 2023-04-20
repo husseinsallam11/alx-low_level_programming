@@ -1,13 +1,13 @@
 #include <stdlib.h>
-#include "main.h"
+#include "function_pointers.h"
 
 /**
- * name_printing - prints a name
+ * print_name - prints a name
  * @name: ch to print
  * @f: pointer
  */
 
-void name_printing(char *name, void (*f)(char *))
+void print_name(char *name, void (*f)(char *))
 {
 	if (!name || !f)
 		return;
