@@ -17,5 +17,5 @@ size_t print_listint(const listint_t *h)
 		c += 1;
 		pointy = pointy->next;
 	}
-	return (count);
+	return (c);
 }
